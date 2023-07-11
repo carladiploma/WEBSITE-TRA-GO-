@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100vh;
+}
+#inputcomment {
+	width: 800px;
+	height: 150px;
+	border: 1px solid #e3e3e3;
+	margin-left: 260px;
+	margin-top: 30px;
+}
+#commentsection h4 {
+	font-family: century gothic;
+	margin-left: 260px;
+	margin-top: 150px;
+}
+#textarea {
+	resize: none;
+	width: 790px;
+	height: 130px;
+	padding: 10px;
+
+}
+#commentbutton {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 20px;
+	background-color: #4caf50;
+	font-family: century gothic;
+	margin-top: 15px;
+	margin-left: 710px; 
+	color: white;
+	outline: none;
+}
+#commentbutton:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 3px #e3e3e3;
+}

@@ -1,0 +1,111 @@
+	::-webkit-scrollbar {
+  	width: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+  	background-color: grey ;
+	}
+
+	::-webkit-scrollbar-thumb {
+	background-color:rgb(235,164,21) ;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+  	background-color: rgb(255,255,153);
+	}
+
+	body{
+		background-image: url(TUPV/blog.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+	}
+	
+	#div1{
+		height: 85px;
+		width: 99%;
+		right: 2%;
+		left: 2%;
+		background-color: rgb(235,164,21);
+	}
+
+	.p1{
+		font-size: 40px;
+		font-family: amethyst;
+		padding-top: 20px;
+		margin-top: -75px;
+		color: rgb(128,0,0);
+	}
+
+	li {
+		display: inline;
+	}
+
+	#una li a{
+		color: rgb(255,255,153) ;
+		display: inline-block;
+		padding: 10px;
+		font-size: 40px;
+		text-decoration: none;
+		border-radius: 10px;
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+
+	#duwa {
+		margin-top: -107px;
+	}
+
+	#duwa li a{
+		color:  rgb(255,255,153);
+		display: inline-block;
+		padding: 10px;
+		font-size: 40px;
+		text-decoration: none;
+		border-radius: 10px;
+		float: right;
+		margin-right: 30px;
+		margin-top: 4px;
+	}
+	
+	li a:hover {
+		background-color: rgb(128,0,0);
+		cursor: pointer;
+	}
+
+	table{
+		margin-top: 12%;
+		margin-left: 22%;
+	}
+
+	.vids {
+		height: 150px;
+		border-radius: 30%;
+		padding: 25px 25px 25px 25px;
+	}
+
+	.title {
+		color: rgb(235,164,21);
+		text-align: center;
+		font-family: Alpha Light;
+	}
+
+	.caption {
+		color: rgb(255,255,153);
+		text-align: center;
+		margin-top: -17px;
+	}
+
+	/*like*/
+
+	button {
+		background-image: url(hrt.jpg);
+		background-position: center;
+		margin-left: -200px;
+		padding: 20px;
+		text-shadow: 1px 1px 1px #202020;
+		border: 1px solid yellow;
+	}
+
+

@@ -1,0 +1,108 @@
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background-color: grey ;
+}
+
+::-webkit-scrollbar-thumb {
+background-color:rgb(235,164,21) ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: rgb(255,255,153);
+}
+
+body{
+		background-image: url(TUPV/blog.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+	}
+
+#content {
+	background-color: rgb(255,255,153);
+	color: #b70000d9;
+	font-family: century gothic;
+	width: 80%;
+	height: inherit;
+	margin-left: 9.5%;
+	padding: 10px 10px 10px 10px;
+}
+
+.home-icon {
+	background-image: url(use/homeicon.jpg);
+	height: 80px;
+	margin-top: 37%;
+	margin-left: 91%;
+	position: fixed;
+	width: 80px;
+	border-radius: 60px;
+}
+
+.home-icon:hover {
+	box-shadow: 1px 1px 10px #403636;
+}
+
+.blog{
+	background-image: url(use/bloglist.jpg);
+	height: 80px;
+	margin-top: 37%;
+	margin-left: 2%;
+	position: fixed;
+	width: 80px;
+	border-radius: 60px;
+}
+
+.blog:hover {
+	box-shadow: 1px 1px 10px #403636;
+}
+
+.april-info h1{
+	font-size: 55px;
+}
+
+img{
+	margin-top: 20px;
+	margin-left: 25%;
+	border-radius: 20px;
+	height: 50%;
+	width: 50%;
+}
+
+/*COMMENT*/
+#inputcomment {
+	width: 800px;
+	margin-left: 260px;
+	margin-top: 30px;
+}
+#commentsection h4 {
+	font-family: century gothic;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+#textarea {
+	resize: none;
+	margin-left: -80px;
+	width: 700px;
+	height: 130px;
+	padding: 5px;
+
+}
+#commentbutton {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 20px;
+	background-color: #4caf50;
+	font-family: century gothic;
+	margin-top: 10px;
+	margin-left: 710px; 
+	color: white;
+	outline: none;
+}
+#commentbutton:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 3px #e3e3e3;
+}
